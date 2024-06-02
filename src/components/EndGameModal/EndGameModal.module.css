@@ -9,6 +9,17 @@
   align-items: center;
 }
 
+.modalLeader {
+  width: 480px;
+  height: 550px;
+  border-radius: 12px;
+  background: #c2f5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .image {
   width: 96px;
   height: 96px;
@@ -25,6 +36,50 @@
   line-height: 48px;
 
   margin-bottom: 28px;
+}
+
+.titleLeader {
+  color: #004980;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: StratosSkyeng;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+
+  margin-bottom: 14px;
+}
+
+.inputText {
+  margin-bottom: 14px;
+  width: 246px;
+  height: 48px;
+
+  border: 1px solid #004980;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+
+  font-variant-numeric: lining-nums proportional-nums;
+  color: #004980;
+  font-family: StratosSkyeng;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+.inputText::placeholder {
+  color:dimgray;
+  font-family: StratosSkyeng;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+.inputText:focus {
+  border-color:#0082e6;
 }
 
 .description {
@@ -48,4 +103,17 @@
   line-height: 72px;
 
   margin-bottom: 40px;
+}
+
+.linkBoard {
+  padding-top: 20px;
+  color: #004980;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.linkBoard:hover {
+color:#000;
 }

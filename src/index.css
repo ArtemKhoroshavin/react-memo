@@ -35,3 +35,13 @@ ol {
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src:
+    url("../public/assets/fonts/Roboto-Regular.ttf") format("ttf"),
+    local("Roboto-Regular");
+  font-weight: 400;
+  font-style: normal;
+}
+

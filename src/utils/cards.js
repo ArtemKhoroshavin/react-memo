@@ -38,7 +38,6 @@ export function generateDeck(pairsCount = 3) {
 
   for (let i = 0; i < pairsCount; i++) {
     const card = uniqueDeck[i];
-    // Нельзя выбирать две одинаковые карты?
     deck.push({
       id: id++,
       suit: card.suit,
